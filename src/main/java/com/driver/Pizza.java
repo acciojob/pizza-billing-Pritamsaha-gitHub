@@ -39,7 +39,7 @@ public class Pizza {
         // your code goes here
         if(isCheesAdded==false){
             this.price=this.price+this.cheesPrice;
-            isCheesAdded=true;
+            this.isCheesAdded=true;
         }
     }
 
@@ -47,7 +47,7 @@ public class Pizza {
         // your code goes here
         if(isToppingsAdded==false){
             this.price=this.price+this.toppingsPrice;
-            isToppingsAdded=true;
+            this.isToppingsAdded=true;
         }
     }
 
@@ -55,7 +55,7 @@ public class Pizza {
         // your code goes here
         if(isTakeAwayAdded==false){
             this.price=this.price+this.takeAwayPrice;
-            isTakeAwayAdded=true;
+            this.isTakeAwayAdded=true;
         }
 
     }
